@@ -1,22 +1,5 @@
-// try {
-//     console.log(parseInt("ыыыы"));
-// }
-// catch (error) {
-//     console.log("Основание не в указанном диапазоне, либо первый символ не удалось преобразовать в число!");
-// }
-//что-то не совсем пойму, как правильно написать
-
-// let user = undefined;
-// try {
-//     console.log(`Привет, ${user.name}`);
-// }
-// catch (error) {
-//     console.log("Имя пользователя не заполненно");
-// }
-
 let input_text = myForm.elements.input_text;
 let select = myForm.elements.select;
-
 
 postButton.onclick = function (e) {
     e.preventDefault();
