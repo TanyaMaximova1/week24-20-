@@ -1,19 +1,8 @@
 let input_text = myForm.elements.input_text;
 let select = myForm.elements.select;
 
-
-
-
 postButton.onclick = function (e) {
     e.preventDefault();
-
-    // try {
-    // input_text.value <= 10;
-    // }
-    // catch (error) {
-    //     console.log("Значение вне диапозона");
-    // }
-
     if (select.value == 1) {
         //персонажи
         try {
@@ -107,7 +96,6 @@ postButton.onclick = function (e) {
             div.innerHTML = `<p><font color="red">${error.message}</font></p>`;
         }
     }
-
 
     //планеты
     if (select.value == 2) {
