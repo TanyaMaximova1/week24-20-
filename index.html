@@ -9,6 +9,27 @@
 </head>
 
 <body>
+    <form name="myForm">
+        <div>
+            <p><b>Выберите о чем узнать информацию: </b></p>
+            <select id="select" name="select">
+                <option value="1">Персонаж</option>
+                <option value="2">Планета</option>
+                <option value="3">Корабль</option>
+            </select>
+        </div>
+        <div>
+            <br />
+            <label><b>Введите порядковый номер:</b></label>
+            <input type="number" name="input_text" placeholder="Номер" id="input_text" min="1" max="10" required>
+        </div>
+        <div>
+            <button id="postButton">Получить!</button>
+        </div>
+        <div id="answer">
+        </div>
+
+    </form>
 
 
 
