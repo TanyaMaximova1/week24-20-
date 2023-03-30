@@ -175,7 +175,7 @@ postButton.onclick = function (e) {
     }
 
     //фильмы
-    if (select.value == 2) {
+    if (select.value == 3) {
         if (input_text.value == 1) {
             fetch('https://swapi.dev/api/films/1/')
                 .then(response => response.json())
